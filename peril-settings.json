@@ -1,14 +1,10 @@
 {
   "settings": {
-   // [your settings]
   },
   "rules": {
     "pull_request": "orta/peril-bootstrap@dangerfiles/pr.js",
     "issues": "orta/peril-bootstrap@dangerfiles/issue.js"
   },
   "repos" : {
-    "orta/ORStackView": {
-      "issues.opened": "lock_old_issues.ts"
-    }
   }
 }
